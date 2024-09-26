@@ -1,0 +1,6 @@
+---
+- name: jenkins
+  hosts: webserver
+  become: true
+  roles:
+    - role: /home/ubuntu/ansible/jenkins
